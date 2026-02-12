@@ -1,0 +1,4 @@
+export(mcnemar_vs_control)
+S3method(summary, mcnemar_vs_control)
+S3method(print, mcnemar_vs_control)
+importFrom(stats, complete.cases, p.adjust, reshape)
